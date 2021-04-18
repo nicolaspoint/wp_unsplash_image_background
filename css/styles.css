@@ -1,0 +1,31 @@
+
+#ubi_plugin {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    color: #fff;
+}
+
+#ubi_plugin #ubi_inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#ubi_plugin #filter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(50, 50, 50, 0.4);
+}
+
+.ubi_title {
+    z-index: 10;
+}
