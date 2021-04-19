@@ -6,7 +6,7 @@
  * Version:           1.0.1
  * Author:            Nicolas Point
  * Author URI:        https://www.kwante.com/
- * Text Domain:       wp_unsplash_image_background
+ * Text Domain:       wp_unsplash_image_background 
 */
 
 /*
