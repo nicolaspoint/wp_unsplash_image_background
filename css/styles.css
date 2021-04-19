@@ -3,6 +3,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     max-width: 100%;
@@ -28,4 +29,12 @@
 
 .ubi_title {
     z-index: 10;
+}
+
+#ubi_plugin h1,
+#ubi_plugin h2,
+#ubi_plugin h3,
+#ubi_plugin h4,
+#ubi_plugin h5 {
+    margin: 0;
 }
