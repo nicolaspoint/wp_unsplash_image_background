@@ -11,7 +11,7 @@ function unsplash_image( $atts ) {
         'classes' => "",
     ), $atts );
     
-    $image = ($a['image_url'] != "") ? $a['image_url'] : "";
+    $image = ($a['image_url'] != "") ? $a['image_url'] : ""; 
     $random_image = ($a['image_url'] != "") ? false : true;
     $title = ($a['title'] != "") ? "<".$a['title_tag'].">".$a['title']."</".$a['title_tag'].">" : "";
     $subtitle = ($a['subtitle'] != "") ? "<div class='ubi_title'><".$a['subtitle_tag'].">".$a['subtitle']."</".$a['subtitle_tag']."></div>" : "";
