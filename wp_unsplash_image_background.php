@@ -3,7 +3,7 @@
  * Plugin Name:       WP Unsplash Image Background
  * Plugin URI:        https://kwante.com
  * Description:       Create a title div container with a random Unsplash image background, through a shortcode.
- * Version:           1.0.1
+ * Version:           2.0
  * Author:            Nicolas Point
  * Author URI:        https://www.kwante.com/
  * Text Domain:       wp_unsplash_image_background 

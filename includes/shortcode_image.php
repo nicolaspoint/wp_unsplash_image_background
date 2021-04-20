@@ -10,6 +10,8 @@ function unsplash_image( $atts ) {
         'image_url' => "",
         'classes' => "",
     ), $atts );
+
+    $rand = rand();
     
     $image = ($a['image_url'] != "") ? $a['image_url'] : ""; 
     $random_image = ($a['image_url'] != "") ? false : true;
@@ -18,7 +20,7 @@ function unsplash_image( $atts ) {
     $classes = ($a['classes'] != "")? $a['classes'] : "";
     $style_inner= 'style="background-repeat: no-repeat; background-size: cover; background-position: center center; background: url('.$image.');"';
     
-    $ubi_result = '<div id="ubi_plugin" data-random_image="'.$random_image.'" class="'.$classes.'" style="height: '.$a['height'].'px"><div id="ubi_inner" '.$style_inner.'></div><div id="filter"></div><div class="ubi_title">'.$title.'</div>'.$subtitle.'</div>';
+    $ubi_result = '<div class="ubi_plugin '.$classes.'" data-rand="'.$rand.'" data-random_image="'.$random_image.'" style="height: '.$a['height'].'px"><div id="ubi_inner_'.$rand.'" class="ubi_inner" '.$style_inner.'></div><div class="filter"></div><div class="ubi_title">'.$title.'</div>'.$subtitle.'</div>';
 
     return $ubi_result;
 
